@@ -1,0 +1,41 @@
+.table__search.open{
+    display: inline-block;
+}
+
+.table__search {
+    background-color: #fff;
+    min-width: 420px;
+    margin-top: 10px;
+    border-radius: 20px;
+    position: relative;
+    display: none;
+}
+
+.close {
+    color: #000;
+    font-size: 2rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px;
+    background-color: #ccc;
+    border-radius: 12px;
+}
+
+.table__heading {
+    color: #000;
+    font-size: 1.6rem;
+    margin: 12px 0 0 38px;
+}
+
+.table__button {
+    color: #9b30a9;
+    background-color: #fff;
+    font-size: 1.6rem;
+    margin: 37px;
+    height: 56px;
+    width: 284px;
+    border-radius: 47px;
+    border: 1px solid #ccc;
+}
+
